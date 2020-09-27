@@ -1,0 +1,92 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #88d5e9;
+  color: #333;
+  font-family: 'calibri', 'sans-serif';
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#container1 {
+  display: block;
+  text-align: center;
+  padding: 4rem;
+  border-radius: 7px;
+  background: #fff;
+  flex: 0 0 80%;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  font-size: 2rem;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #6cc3d8;
+  border-radius: 8px;
+  border: none;
+  text-transform: capitalize;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+input[type='text'] {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: 3px solid #88d5e9;
+  outline: none;
+}
+
+input[type='text']:focus {
+  box-shadow: 0 0 10px #88d5e9;
+}
+#messageOut {
+  margin: 0.5rem 0;
+  color: #88d5e9;
+}
+
+::placeholder {
+  color: #d3d3d3;
+}
+
+#container2 {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: white;
+  flex: 0 0 80%;
+}
+
+#quoteBtn {
+  border: none;
+  color: white;
+  background: #d89156;
+  font-size: 1.3rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7p;
+  cursor: pointer;
+}
+
+#quoteBtn:hover {
+  color: #ffd000;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 6px solid #fcdbbf;
+  margin: 1.5rem;
+  padding: 0.5rem;
+}
+
+#quoteAuthor {
+  color: #ffd000;
+}

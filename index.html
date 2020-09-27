@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="Hauptcontainer">
+      <div id="container1">
+        <h1>Message you would like to send</h1>
+        <input
+          type="text"
+          name="messageIn"
+          id="messageIn"
+          placeholder="what should be send?"
+        />
+        <button type="button" id="sendBtn">press to send Message</button>
+        <h1>Last Massage delivered</h1>
+        <h1 id="messageOut"></h1>
+      </div>
+
+      <div id="container2">
+        <h2>Quotes by famous people</h2>
+        <button type="button" id="quoteBtn">press to display a quote</button>
+        <blockquote>
+          <h2 id="quote"></h2>
+        </blockquote>
+        <h3 id="quoteAuthor"></h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
